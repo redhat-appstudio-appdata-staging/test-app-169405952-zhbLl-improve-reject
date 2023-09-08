@@ -27,7 +27,7 @@ spec:
       containers:
       - env:
         - name: TEST_ENV_VAR
-          value: Test go app
+          value: Test go appk
         image: quay.io/redhat-user-workloads-stage/skhileri-tenant/test-app-169405952/go-169405952@sha256:2c974424cfd761081c38c573429fbb53b1c0ee1fe270155f57739d47d4d60e2d
         name: my-go
         ports:
